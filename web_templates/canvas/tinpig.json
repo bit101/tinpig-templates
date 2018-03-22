@@ -1,0 +1,10 @@
+{
+  "name": "Canvas",
+  "description": "HTML5 Canvas application with vanilla JavaScript.",
+  "tokens": [
+    {
+      "name": "TITLE",
+      "default": "Hello canvas"
+    }
+  ]
+}

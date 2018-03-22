@@ -1,0 +1,10 @@
+{
+  "name": "HTML",
+  "description": "Barebones HTML Project with JavaScript and CSS",
+  "tokens": [
+    {
+      "name": "TITLE",
+      "default": "Hello world"
+    }
+  ]
+}
