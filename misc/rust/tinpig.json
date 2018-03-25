@@ -1,0 +1,18 @@
+{
+  "name": "Rust",
+  "description": "Basic Rust project",
+  "author": "Keith Peters",
+  "contact": "https://github.com/bit101",
+  "tokens": [
+    {
+      "name": "AUTHOR_NAME"
+    },
+    {
+      "name": "AUTHOR_EMAIL"
+    },
+    {
+      "name": "PROJECT_NAME"
+    }
+  ],
+  "ignore": [ "template_readme.md" ]
+}

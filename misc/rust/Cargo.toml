@@ -1,0 +1,6 @@
+[package]
+name = "${PROJECT_NAME}"
+version = "0.1.0"
+authors = ["${AUTHOR_NAME} <${AUTHOR_EMAIL}>"]
+
+[dependencies]
