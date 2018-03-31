@@ -14,5 +14,6 @@
       "name": "PROJECT_NAME"
     }
   ],
-  "ignore": [ "template_readme.md" ]
+  "ignore": [ "template_readme.md" ],
+  "postMessage": "Run the project with 'cargo run <project name>'"
 }
