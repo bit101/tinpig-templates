@@ -1,0 +1,7 @@
+{
+  "name": "Lua",
+  "description": "Basic lua project",
+  "author": "Keith Peters",
+  "contact": "https://github.com/bit101",
+  "postMessage": "Go into the project directory and type `lua main.lua`."
+}
