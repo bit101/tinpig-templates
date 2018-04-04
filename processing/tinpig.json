@@ -1,5 +1,5 @@
 {
   "name": "Processing",
   "description": "A simple Processing sketch",
-  "postMessage": "Open the sketch in Processing."
+  "postMessage": "Open the '.pde' file in Processing."
 }
