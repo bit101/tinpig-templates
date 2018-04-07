@@ -1,0 +1,8 @@
+
+{
+  "name": "GoProject",
+  "description": "Creates a Go project with a 'main' file and an imported library.",
+  "author": "Keith Peters",
+  "contact": "https://github.com/bit101",
+  "preMessage": "For this project to compile correctly, it should be created within the 'src' folder of your GOPATH"
+}
