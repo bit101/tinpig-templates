@@ -1,9 +1,0 @@
-
-{
-  "name": "Go",
-  "description": "Basic Go project",
-  "author": "Keith Peters",
-  "contact": "https://github.com/bit101",
-  "ignore": [ "template_readme.md" ],
-  "postMessage": "Go into the project directory and type `go build` then run the executable it makes."
-}
