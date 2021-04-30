@@ -1,0 +1,14 @@
+
+{
+  "name": "blgo",
+  "description": "Creates a blgo project (github.com/bit101/blgo).",
+  "author": "Keith Peters",
+  "contact": "https://github.com/bit101",
+  "tokens": [
+    {
+      "name": "MOD_NAME",
+      "required": true
+    }
+  ],
+  "postMessage": "On first run, you may be asked to do multiple `go mod download...` actions. This will update your `go.sum` file to latest versions."
+}
