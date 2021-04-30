@@ -1,3 +1,5 @@
+# Note: this template is currently 3 years old and needs to be updated.
+
 This template creates a Webpack 4 project with React 16, Babel, ES Lint and Stylus.
 
 It includes npm scripts to run ES Lint, build the project in dev or prod mode, clean the project and run Webpack Dev Server.
