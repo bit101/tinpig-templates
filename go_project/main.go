@@ -1,7 +1,7 @@
 package main
 
 import (
-	"${TINPIG_PROJECT_DIR}/hello"
+	"${MOD_NAME}/hello"
 )
 
 func main() {

@@ -3,5 +3,11 @@
   "name": "GoLib",
   "description": "Creates a Go library package, non-executable.",
   "author": "Keith Peters",
-  "contact": "https://github.com/bit101"
+  "contact": "https://github.com/bit101",
+  "tokens": [
+    {
+      "name": "PACKAGE_NAME",
+      "required": true
+    }
+  ]
 }

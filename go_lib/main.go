@@ -1,4 +1,4 @@
-package ${TINPIG_PROJECT_DIR}
+package ${PACKAGE_NAME}
 
 import (
 	"fmt"

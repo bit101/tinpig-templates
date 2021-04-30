@@ -1,7 +1,13 @@
 
 {
   "name": "GoMain",
-  "description": "Creates a Go executable project with a 'main' file.",
+  "description": "Creates a Go executable project with main.go, go.mod and a Makefile.",
   "author": "Keith Peters",
-  "contact": "https://github.com/bit101"
+  "contact": "https://github.com/bit101",
+  "tokens": [
+    {
+      "name": "MOD_NAME",
+      "required": true
+    }
+  ]
 }
