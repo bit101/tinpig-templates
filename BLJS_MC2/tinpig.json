@@ -1,0 +1,10 @@
+{
+  "name": "BLJS_MC2",
+  "description": "bitlib JavaScript + MinimalComponents2",
+  "tokens": [
+    {
+      "name": "TITLE",
+      "default": "Hello world"
+    }
+  ]
+}
