@@ -8,8 +8,8 @@ import (
 
 func main() {
 	base.RenderImage(800, 800, setup, render)
-	// base.RenderGif(400, 400, 5, 30, render)
-	// base.RenderVideo(1280, 720, 10, 30, render)
+	// base.RenderGif(400, 400, 5, 30, setup, render)
+	// base.RenderVideo(1280, 720, 10, 30, setup, render)
 }
 
 func setup(surface *blgo.Surface, width, height float64) {
