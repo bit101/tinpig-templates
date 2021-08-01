@@ -10,5 +10,5 @@
       "required": true
     }
   ],
-  "postMessage": "On first run, you may be asked to do multiple `go mod download...` actions. This will update your `go.sum` file to latest versions."
+  "postMessage": "Go into the project and run ./init.sh to set up dependencies."
 }
