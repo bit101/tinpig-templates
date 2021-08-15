@@ -1,15 +1,15 @@
 package main
 
 import (
-	"${MOD_NAME}/base"
-
 	"github.com/bit101/blgo"
+	"github.com/bit101/blgo/base"
 )
 
 func main() {
-	base.RenderImage(800, 800, setup, render)
-	// base.RenderGif(400, 400, 5, 30, setup, render)
-	// base.RenderVideo(1280, 720, 10, 30, setup, render)
+	sketch := base.NewSketch(setup, render)
+	sketch.RenderImage(800, 800, 1)
+	// sketch.RenderGif(400, 400, 5, 30)
+	// sketch.RenderVideo(1280, 720, 10, 30)
 }
 
 func setup(surface *blgo.Surface, width, height float64) {
@@ -17,6 +17,6 @@ func setup(surface *blgo.Surface, width, height float64) {
 }
 
 func render(surface *blgo.Surface, width, height, percent float64) {
-	surface.FillRectangle(50, 50, width - 100, height - 100)
-
+	surface.SetSourceRGB(1, 0, 0)
+	surface.FillRectangle(0, 0, width*percent, height)
 }
