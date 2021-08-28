@@ -10,6 +10,7 @@ func main() {
 	sketch.RenderImage(800, 800, 1)
 	// sketch.RenderGif(400, 400, 5, 30)
 	// sketch.RenderVideo(1280, 720, 10, 30)
+	// sketch.RenderFrames(800, 800, 10, 30)
 }
 
 func setup(surface *blgo.Surface, width, height float64) {
