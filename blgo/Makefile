@@ -14,11 +14,6 @@ gifski:
 	@gifski --fps 30 frames/*.png -o out.gif
 	@eog out.gif
 
-clean:
-	@rm -rf frames
-	@rm -f out.png out.gif out.mp4
-
-
 video:
 	ffmpeg -framerate 30 -i frames/frame_%04d.png -s 1920x1080 -c:v libx264 -preset veryslow -crf 20 -pix_fmt yuv420p -vf "fade=t=out:st=55:d=5" out.mp4
 	# ffmpeg -framerate 30 -i frames/frame_%04d.png -s 1920x1080 -c:v libx264 -preset veryslow -crf 20 -pix_fmt yuv420p out.mp4
