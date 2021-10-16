@@ -8,9 +8,9 @@ import (
 func main() {
 	sketch := base.NewSketch(setup, render)
 	sketch.RenderImage(800, 800, 1)
-	// sketch.RenderGif(400, 400, 5, 30)
-	// sketch.RenderVideo(1280, 720, 10, 30)
-	// sketch.RenderFrames(800, 800, 10, 30)
+	// sketch.RenderFrames(400, 400, 5, 30)
+	// util.MakeGIF("ffmpeg", "frames", "out.gif", 30)
+	// util.ViewImage("out.gif")
 }
 
 func setup(surface *blgo.Surface, width, height float64) {
