@@ -14,10 +14,8 @@ func main() {
 }
 
 func setup(surface *blgo.Surface, width, height float64) {
-	surface.ClearRGB(1, 1, 1)
 }
 
 func render(surface *blgo.Surface, width, height, percent float64) {
-	surface.SetSourceRGB(1, 0, 0)
-	surface.FillRectangle(0, 0, width*percent, height)
+	surface.ClearWhite()
 }
