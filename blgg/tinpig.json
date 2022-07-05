@@ -1,0 +1,14 @@
+
+{
+  "name": "blgg",
+  "description": "Creates a blgg project (github.com/bit101/blgg).",
+  "author": "Keith Peters",
+  "contact": "https://github.com/bit101",
+  "tokens": [
+    {
+      "name": "MOD_NAME",
+      "required": true
+    }
+  ],
+  "postMessage": "Go into the project and run ./init.sh to set up dependencies."
+}
