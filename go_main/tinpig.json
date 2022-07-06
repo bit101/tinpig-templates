@@ -1,4 +1,3 @@
-
 {
   "name": "GoMain",
   "description": "Creates a Go executable project with main.go, go.mod and a Makefile.",
@@ -9,5 +8,6 @@
       "name": "MOD_NAME",
       "required": true
     }
-  ]
+  ],
+  "postMessage": "Go into new directory and run ./init.sh"
 }
