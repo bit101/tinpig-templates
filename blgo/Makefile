@@ -1,6 +1,3 @@
-default:
-	tmux_send "make build"
-
 build: clean
 	@mkdir frames
 	@go run main.go
